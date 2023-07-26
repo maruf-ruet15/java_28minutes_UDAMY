@@ -1,5 +1,9 @@
 package com.in28minutes.learnspringframework.game;
 
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+@Primary
+@Configuration
 public class SuperContraGame implements GamingConsole{
 
 	public void up() {
